@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    position: relative;
+    text-align: center;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    color: black;
+    font-weight: bold;
+}
+
+.barra-superior {
+    display: flex;
+    padding: 1em;
+    background: #fff;
+    position: relative;
+}
+
+.barra-pesquisa {
+    display: flex;
+    border: 1px solid #ccc; 
+    border-radius: 20px; 
+    padding: 10px 20px; 
+    width: 400px; 
+    background-color: #f8f8f8; 
+}
+
+.barra-pesquisa input {
+    border: none; 
+    outline: none;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 10px; 
+    flex-grow: 1; 
+}
+
+.barra-pesquisa button {
+    background: transparent; 
+    border: none; 
+    cursor: pointer; 
+    color: #007bff; 
+}
+
+
+.projetos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    padding: 2em;
+}
+
+.card {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    width: 240px;
+    padding: 1em;
+    text-align: center;
+}
+
+.card img {
+    width: 80px;
+    height: 80px;
+}
+
+.card h3 {
+    margin: 10px 0 5px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #333;
+}
+
+.tags span {
+    background-color: #eee;
+    margin: 2px;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2em 1em;
+    font-size: 14px;
+}
+
+.rodape-img img {
+    height: 40px;
+    margin: 0 10px;
+}
+
+
+.colorI{
+    background-color: #b8daff;
+}
+
+.colorII{
+  background-color: #bdeefa;
+}
+
+.colorIII{
+  background-color: rgb(230, 166, 88);
+}
+
+.colorIV{
+ background-color: #eeb3a5;
+}
+
+.colorV{
+  background-color: #acf1d1;
+}
+
+.colorVI{
+  background-color: #b8daff;
+}
+
+.colorVII{
+    background-color: rgb(255, 206, 145);
+}
+
+.colorVIII{
+    background-color: #acf1d1;
+}
